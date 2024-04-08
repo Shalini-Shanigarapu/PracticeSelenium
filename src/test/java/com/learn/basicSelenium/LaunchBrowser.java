@@ -9,7 +9,7 @@ public class LaunchBrowser {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://admin-demo.nopcommerce.com/");
-        Thread.sleep(5);
+        Thread.sleep(3);
         driver.findElement(By.id("Email")).clear();
         driver.findElement(By.id("Email")).sendKeys("admin@yourstore.com");
         driver.findElement(By.xpath("//button[contains(text(),'Log in')]")).click();
