@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f23033bd-5fc8-4414-90d3-9438cd6264ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../PracticeSelenium" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/learn/basicSelenium/LaunchBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/learn/basicSelenium/LaunchBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DynamicXpath.executor": "Run",
     "Application.LaunchBrowser.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -45,7 +46,20 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DynamicXpath">
+    <configuration name="DynamicXpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.basicSelenium.DynamicXpath" />
+      <module name="SeleniumPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.basicSelenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LaunchBrowser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.basicSelenium.LaunchBrowser" />
       <module name="SeleniumPractice" />
@@ -61,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DynamicXpath" />
         <item itemvalue="Application.LaunchBrowser" />
       </list>
     </recent_temporary>
